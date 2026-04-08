@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large and generated data
+data/raw/pdfs/*
+data/interim/md/*
+data/interim/images/*
+data/processed/catgraph/*
+data/processed/datasets/*
+data/processed/features/*
+data/processed/*.db
+workspace/*
+
+# Keep directory placeholders
+!data/raw/pdfs/.gitkeep
+!data/interim/md/.gitkeep
+!data/interim/images/.gitkeep
+!data/processed/catgraph/.gitkeep
+!data/processed/datasets/.gitkeep
+!data/processed/features/.gitkeep
+!workspace/.gitkeep

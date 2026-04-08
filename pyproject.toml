@@ -1,0 +1,8 @@
+[project]
+name = "nh3map"
+version = "0.1.0"
+description = "AI-assisted literature and multimodal workflow for low-temperature NH3-SCR catalysts."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
